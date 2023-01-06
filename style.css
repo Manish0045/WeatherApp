@@ -1,0 +1,55 @@
+.cards {
+    display: flex;
+    gap: 2rem;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card {
+    height: 300px;
+    width: 320px;
+    background: black;
+    color: rgb(0, 255, 157);
+    text-align: center;
+    border: 3px solid cyan;
+    border-radius: 2rem;
+    box-shadow: 3px 4px 0 0 red;
+}
+
+.card>h4 {
+    height: 50px;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+
+.card-body {
+    margin-top: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    border: 3px solid cyan;
+    border-radius: 2rem;
+    
+}
+
+.searchBox{
+    width: 350px;
+    display: flex;
+    margin-top: 5px;  
+    justify-content: center;  
+}
+
+.searchBox>input{
+    border-radius: 2rem;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.searchBox>button{
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-left: -30px;
+    width: 55px;
+}
