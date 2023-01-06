@@ -15,7 +15,7 @@ const getWeather = (city) => {
     .then((response) => {
 
 
-      console.log(response);
+      // console.log(response);
 
       cloud_pct.innerHTML = response.cloud_pct;
       temp.innerHTML = response.temp;
